@@ -32,7 +32,6 @@ git clone https://github.com/xiaorouji/openwrt-passwall-packages.git package/pas
 git clone https://github.com/xiaorouji/openwrt-passwall2.git package/passwall2
 
 # 添加mosdns
-rm -rf feeds/packages/net/v2ray-geodata
-
-git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
-git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
+# rm -rf feeds/packages/net/v2ray-geodata
+# git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
+# git clone https://github.com/sbwml/v2ray-geodata package/v2ray-geodata
