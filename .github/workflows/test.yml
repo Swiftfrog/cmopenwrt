@@ -20,7 +20,7 @@ env:
   REPO_URL: https://github.com/openwrt/openwrt
   REPO_BRANCH: v24.10.4
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: test
+  CONFIG_FILE: test2
   DIY_P1_SH: OP.24.10.1.sh
   DIY_P2_SH: OP.24.10.2.sh
   UPLOAD_BIN_DIR: false
