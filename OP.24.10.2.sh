@@ -11,7 +11,7 @@
 #
 
 # Modify default IP
-sed -i 's/192.168.1.1/10.9.0.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/10.8.0.1/g' package/base-files/files/bin/config_generate
 
 #  modify NO.
 # 23.05.2
