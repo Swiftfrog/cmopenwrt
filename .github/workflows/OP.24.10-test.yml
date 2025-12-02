@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: OP.24.10.test
+name: OP.24.10-t
 
 on:
   repository_dispatch:
