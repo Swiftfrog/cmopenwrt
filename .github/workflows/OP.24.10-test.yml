@@ -78,15 +78,6 @@ jobs:
         git checkout $REPO_BRANCH
         ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
 
-    # - name: Cache dl directory
-    #   uses: actions/cache@v3
-    #   with:
-    #     path: /workdir/openwrt/dl
-    #     key: openwrt-dl-${{ env.REPO_URL }}-${{ env.REPO_BRANCH }}-${{ hashFiles('**/feeds.conf*') }}
-    #     restore-keys: |
-    #       openwrt-dl-${{ env.REPO_BRANCH }}-
-    #       openwrt-dl-
-
     - name: Load custom feeds
       run: |
         [ -e $FEEDS_CONF ] && mv $FEEDS_CONF openwrt/feeds.conf.default
