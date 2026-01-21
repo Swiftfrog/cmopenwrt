@@ -27,9 +27,12 @@ git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-a
 # git clone https://github.com/kiddin9/luci-theme-edge.git package/luci-theme-edge
 
 # 添加passwall
-git clone https://github.com/Openwrt-Passwall/openwrt-passwall-packages.git package/passwall-packages
+git clone https://github.com/Openwrt-Passwall/openwrt-passwall-packages package/passwall-packages
+git clone https://github.com/Openwrt-Passwall/openwrt-passwall2 package/passwall2
+
+#git clone https://github.com/Openwrt-Passwall/openwrt-passwall-packages.git package/passwall-packages
 #git clone https://github.com/Openwrt-Passwall/openwrt-passwall.git package/passwall
-git clone https://github.com/Openwrt-Passwall/openwrt-passwall2.git package/passwall2
+#git clone https://github.com/Openwrt-Passwall/openwrt-passwall2.git package/passwall2
 
 # 添加mosdns
 # rm -rf feeds/packages/net/v2ray-geodata
