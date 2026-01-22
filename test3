@@ -1,7 +1,10 @@
 CONFIG_TARGET_x86=y
 CONFIG_TARGET_x86_64=y
 CONFIG_TARGET_x86_64_DEVICE_generic=y
+CONFIG_GRUB_BAUDRATE=38400
 # CONFIG_GRUB_IMAGES is not set
+# CONFIG_KERNEL_DCB is not set
+# CONFIG_KERNEL_IO_URING is not set
 CONFIG_LIBCURL_COOKIES=y
 CONFIG_LIBCURL_FILE=y
 CONFIG_LIBCURL_FTP=y
@@ -55,10 +58,10 @@ CONFIG_OPENSSL_WITH_MDC2=y
 CONFIG_OPENSSL_WITH_PSK=y
 CONFIG_OPENSSL_WITH_SEED=y
 CONFIG_OPENSSL_WITH_SRP=y
-CONFIG_OPENSSL_WITH_SSE2=y
 CONFIG_OPENSSL_WITH_TLS13=y
 CONFIG_OPENSSL_WITH_WHIRLPOOL=y
 CONFIG_PACKAGE_attendedsysupgrade-common=y
+# CONFIG_PACKAGE_bnx2-firmware is not set
 CONFIG_PACKAGE_bnx2x-firmware=y
 CONFIG_PACKAGE_cgi-io=y
 CONFIG_PACKAGE_chinadns-ng=y
@@ -76,28 +79,42 @@ CONFIG_PACKAGE_dnsmasq_full_dnssec=y
 CONFIG_PACKAGE_dnsmasq_full_nftset=y
 CONFIG_PACKAGE_dnsmasq_full_noid=y
 CONFIG_PACKAGE_dnsmasq_full_tftp=y
+CONFIG_PACKAGE_e100-firmware=y
 CONFIG_PACKAGE_geoview=y
 CONFIG_PACKAGE_haproxy=y
 CONFIG_PACKAGE_hysteria=y
 CONFIG_PACKAGE_ip-full=y
+CONFIG_PACKAGE_kmod-3c59x=y
+CONFIG_PACKAGE_kmod-8139too=y
+# CONFIG_PACKAGE_kmod-bnx2 is not set
 CONFIG_PACKAGE_kmod-bnx2x=y
 CONFIG_PACKAGE_kmod-crypto-kpp=y
 CONFIG_PACKAGE_kmod-crypto-lib-chacha20=y
 CONFIG_PACKAGE_kmod-crypto-lib-chacha20poly1305=y
 CONFIG_PACKAGE_kmod-crypto-lib-curve25519=y
 CONFIG_PACKAGE_kmod-crypto-lib-poly1305=y
+CONFIG_PACKAGE_kmod-e100=y
+# CONFIG_PACKAGE_kmod-e1000e is not set
+# CONFIG_PACKAGE_kmod-igb is not set
+# CONFIG_PACKAGE_kmod-igc is not set
 CONFIG_PACKAGE_kmod-inet-diag=y
+# CONFIG_PACKAGE_kmod-ixgbe is not set
 CONFIG_PACKAGE_kmod-lib-zlib-inflate=y
-CONFIG_PACKAGE_kmod-mdio=y
+CONFIG_PACKAGE_kmod-natsemi=y
+CONFIG_PACKAGE_kmod-ne2k-pci=y
 CONFIG_PACKAGE_kmod-netlink-diag=y
 CONFIG_PACKAGE_kmod-nf-conntrack-netlink=y
 CONFIG_PACKAGE_kmod-nf-socket=y
 CONFIG_PACKAGE_kmod-nf-tproxy=y
 CONFIG_PACKAGE_kmod-nft-socket=y
 CONFIG_PACKAGE_kmod-nft-tproxy=y
+CONFIG_PACKAGE_kmod-pcnet32=y
+CONFIG_PACKAGE_kmod-sis900=y
 CONFIG_PACKAGE_kmod-tun=y
 CONFIG_PACKAGE_kmod-udptunnel4=y
 CONFIG_PACKAGE_kmod-udptunnel6=y
+CONFIG_PACKAGE_kmod-via-rhine=y
+CONFIG_PACKAGE_kmod-via-velocity=y
 CONFIG_PACKAGE_kmod-wireguard=y
 CONFIG_PACKAGE_libatomic=y
 CONFIG_PACKAGE_libbpf=y
@@ -135,6 +152,7 @@ CONFIG_PACKAGE_luci-app-passwall2=y
 CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_Haproxy=y
 CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_Hysteria=y
 CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_NaiveProxy=y
+CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_Shadowsocks_Rust_Client=y
 CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_Simple_Obfs=y
 CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_SingBox=y
 CONFIG_PACKAGE_luci-app-passwall2_Nftables_Transparent_Proxy=y
@@ -173,6 +191,7 @@ CONFIG_PACKAGE_rpcd-mod-luci=y
 CONFIG_PACKAGE_rpcd-mod-rpcsys=y
 CONFIG_PACKAGE_rpcd-mod-rrdns=y
 CONFIG_PACKAGE_rpcd-mod-ucode=y
+CONFIG_PACKAGE_shadowsocks-rust-sslocal=y
 CONFIG_PACKAGE_simple-obfs-client=y
 CONFIG_PACKAGE_sing-box=y
 CONFIG_PACKAGE_tcping=y
@@ -211,3 +230,4 @@ CONFIG_TARGET_ROOTFS_PARTSIZE=1024
 # CONFIG_PACKAGE_shadowsocksr-libev-ssr-local is not set
 # CONFIG_PACKAGE_shadowsocksr-libev-ssr-redir is not set
 # CONFIG_PACKAGE_v2ray-plugin is not set
+# CONFIG_PCRE2_JIT_ENABLED is not set
