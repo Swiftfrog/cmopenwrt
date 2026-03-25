@@ -39,7 +39,7 @@ sed -i 's/192.168.1.1/10.9.0.1/g' package/base-files/files/bin/config_generate
 # #curl -s https://downloads.openwrt.org/releases/23.05.2/targets/x86/64/openwrt-23.05.2-x86-64.manifest | grep kernel | awk '{print $3}' | awk -F- '{print $3}' > vermagic
 
 # === 1. 从 manifest 提取 vermagic ===
-VERSION="24.10.4"
+VERSION="25.12.1"
 TARGET_BOARD="x86"
 TARGET_SUBTARGET="64"
 MANIFEST_URL="https://downloads.openwrt.org/releases/${VERSION}/targets/${TARGET_BOARD}/${TARGET_SUBTARGET}/openwrt-${VERSION}-${TARGET_BOARD}-${TARGET_SUBTARGET}.manifest"
@@ -61,5 +61,5 @@ echo "✅ vermagic = $VERMAGIC"
 echo "✅ kernel-defaults.mk patched"
 
 # update golang
-rm -rf feeds/packages/lang/golang
-git clone https://github.com/sbwml/packages_lang_golang -b 25.x feeds/packages/lang/golang
+#rm -rf feeds/packages/lang/golang
+#git clone https://github.com/sbwml/packages_lang_golang -b 25.x feeds/packages/lang/golang
