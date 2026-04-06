@@ -18,9 +18,12 @@
 # 24.10
 #wget -O target/linux/x86/patches-6.6/600-bnx2x-warpcore-8727-2g5.patch https://raw.githubusercontent.com/Swiftfrog/Build-Openwrt/main/2.5G/bnx2x_warpcore_8727_2_5g_sgmii_txfault.patch
 # 24.10
-wget -O target/linux/x86/patches-6.12/600-bnx2x-warpcore-8727-2g5.patch https://raw.githubusercontent.com/Swiftfrog/Build-Openwrt/main/2.5G/bnx2x_warpcore_8727_2_5g_sgmii_txfault.patch
+# wget -O target/linux/x86/patches-6.12/600-bnx2x-warpcore-8727-2g5.patch https://raw.githubusercontent.com/Swiftfrog/Build-Openwrt/main/2.5G/bnx2x_warpcore_8727_2_5g_sgmii_txfault.patch
 # master
 #wget -O target/linux/x86/patches-6.6/600-bnx2x-warpcore-8727-2g5.patch https://raw.githubusercontent.com/JAMESMTL/snippets/master/bnx2x/patches/bnx2x_warpcore_8727_2_5g_sgmii_txfault.patch
+# 25.12
+wget -O target/linux/x86/patches-6.12/600-bnx2x-warpcore-8727-2g5.patch https://raw.githubusercontent.com/Swiftfrog/Build-Openwrt/main/2.5G/bnx2x_warpcore_8727_2_5g_sgmii_txfault.patch
+
 
 # 添加argon主题
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
