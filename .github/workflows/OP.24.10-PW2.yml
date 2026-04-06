@@ -20,7 +20,7 @@ env:
   REPO_URL: https://github.com/openwrt/openwrt
   REPO_BRANCH: v25.12.2
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: test3
+  CONFIG_FILE: OP.25.12.pw2-mosdns
   DIY_P1_SH: OP1.sh
   DIY_P2_SH: OP2.sh
   UPLOAD_BIN_DIR: false
