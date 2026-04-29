@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: OP.24.10-PW2
+name: OP.25.12.PW2
 
 on:
   repository_dispatch:
